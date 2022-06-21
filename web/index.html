@@ -11,7 +11,7 @@
     Fore more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
-  <base href="/https://magozaaa.github.io/">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -112,11 +112,6 @@
 <!--    }-->
 <!--  </script>-->
 <script>
-  if ('serviceWorker' in navigator) {
-      window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js');
-      });
-    }
     var firebaseConfig = {
         apiKey: "AIzaSyDB0IUFD1lMe2P6fsCvr50rAz-Mkrc3tuQ",
         authDomain: "right-nurse.firebaseapp.com",
@@ -130,6 +125,13 @@
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
 
+  </script>
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
   </script>
 <script src="main.dart.js" type="application/javascript"></script>
 </body>
