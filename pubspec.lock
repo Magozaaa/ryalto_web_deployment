@@ -408,7 +408,7 @@ packages:
     source: hosted
     version: "3.0.1"
   firebase_core_web:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
       name: firebase_core_web
       url: "https://pub.dartlang.org"

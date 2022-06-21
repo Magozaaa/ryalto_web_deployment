@@ -278,8 +278,8 @@ class MyApp extends StatefulWidget {
   static String platformIndex;
   static bool userLoggedIn = false;
   static const String flavor =
-      // "production";
-  "staging";
+      "production";
+  // "staging";
 
   @override
   _MyAppState createState() => _MyAppState();

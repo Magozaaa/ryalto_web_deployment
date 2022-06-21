@@ -76,8 +76,8 @@ class _LoginScreenState extends State<LoginScreen> with TickerProviderStateMixin
         : null;
   }
 
-  TextEditingController _emailController = TextEditingController(text: 'test4@ryalto.com');
-  TextEditingController _passwordController = TextEditingController(text: 'shadow77777');
+  TextEditingController _emailController = TextEditingController();
+  TextEditingController _passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
