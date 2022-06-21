@@ -1,0 +1,415 @@
+name: rightnurse
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 3.0.3+6003
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^4.3.1
+  bubble_tab_indicator: ^0.1.4
+  url_launcher: ^5.7.10
+  share: ^0.6.5+4
+  lite_rolling_switch: ^0.1.1
+  groovin_widgets: ^1.6.1
+  giffy_dialog: ^1.8.0
+  table_calendar: ^3.0.3
+  cached_network_image: ^2.5.0
+  firebase_messaging: ^8.0.0-dev.15 #any #^7.0.3
+  firebase_auth: any #^0.18.0+1
+  firebase_core: any #^0.5.0
+  shared_preferences: ^0.5.12+4
+  intl: ^0.16.0
+  pull_to_refresh: ^2.0.0
+  flutter_spinkit: ^5.1.0
+  webview_flutter: ^2.0.2
+  pubnub: ^2.0.0 #^3.2.0
+  flutter_dotenv: ^2.1.0
+  emoji_picker: ^0.1.0
+  flutter_colorpicker: ^0.3.4
+  flutter_emoji: ^2.2.1
+  dash_chat: ^1.1.15
+  local_auth: ^0.6.3+4 #^1.1.6
+  logger: ^1.0.0
+  flutter_secure_storage: ^3.3.5
+  flutter_slidable: ^0.6.0
+  image_picker: any #^0.8.0+3
+  #  video_player: ^2.2.8
+  twilio_voice: ^0.0.9
+  simple_animations: ^4.0.1
+  geolocator: any
+  flutter_native_timezone: ^2.0.0
+  #  country_provider: any
+  flutter_local_notifications: any
+  #  twilio_programmable_video: any
+  permission_handler: any
+  #  fancy_bottom_navigation: ^0.3.2
+  #  beauty_navigation: any
+  swipe_to: ^0.0.1+8
+  flutter_reaction_button: ^2.0.0+1
+  flutter_svg: any
+  smooth_page_indicator: any
+  expand_widget: ^2.1.0
+  fluttertoast: ^8.0.8
+  animated_widgets: ^1.1.0
+  assorted_layout_widgets: ^5.2.1
+  country_code_picker: ^2.0.2
+  dio: any
+  flutter_cache_manager: ^2.1.0
+  animated_text_kit: ^4.2.1
+  flutter_svg_provider: any
+  flutter_launcher_icons: any
+  scrollable_positioned_list: ^0.2.3
+  expandable: ^5.0.1
+  mailto: any
+  flutter_image: ^4.1.0
+  device_info: ^2.0.3
+  transparent_image: any
+  flutter_linkify: ^5.0.2
+  rotated_corner_decoration: ^2.0.0
+  skeleton_text: any
+  dropdown_button2: ^1.1.1
+  cloud_firestore: any
+  add_2_calendar: ^2.1.2
+  shimmer: ^2.0.0
+  flutter_switch: ^0.3.2
+  file_picker: any
+  flutter_downloader: ^1.7.1
+  path_provider: any
+  android_path_provider: ^0.3.0
+  flutter_fgbg: ^0.0.1
+  eraser: ^2.0.0
+  wakelock: any
+  background_fetch: ^1.0.3
+  flutter_inappwebview: ^4.0.0
+  firebase_analytics: ^7.0.1
+  connectivity_plus: ^0.8.1
+  new_version: ^0.0.6
+  universal_io: any #^2.0.4
+#  image_picker_web: ^2.1.1
+  mime_type: ^1.0.0
+  flutter_staggered_grid_view: ^0.3.3
+  websafe_svg: any #^1.1.4+1
+  pagination_view: any
+  faker: any
+  image_picker_web: ^2.1.1
+
+
+  #  firebase_remote_config: ^0.6.0
+#  package_info_plus: ^0.6.4
+
+#  googleapis: ^1.0.0
+#  googleapis_auth: ^0.2.12+1
+#  rudder_sdk_flutter: ^1.2.0
+#  flutter_phoenix: ^0.1.0
+#  get: any
+#  timezone: any
+  #  audioplayers: any
+  #  flutter_native_splash: any
+
+  #  firebase_auth_web:
+  #  window_size:
+  #    git:
+  #      url: git://github.com/google/flutter-desktop-embedding.git
+  #      path: plugins/window_size
+  #      ref: 927f8cbc09b35d85245c095f2db8df9b186f6618
+
+  #  flutter_pubnub: ^0.5.0
+  #  dash_chat: ^1.1.15
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2 #^1.0.0
+#  firebase_crashlytics: ^0.4.0+1
+#  firebase_crashlytics:
+#    git:
+#      url: git://github.com/FirebaseExtended/flutterfire.git
+#      path: packages/firebase_crashlytics/firebase_crashlytics
+#      ref: 200b8ca8f1c452e4249fb791e53cc55e786ac768
+
+
+#flutter_native_splash:
+#  color: "#0097fb"
+#  fullscreen: true
+##  color_dark: "#0097fb"
+#  android_gravity: fill
+#  background_image: "images/blueSplash.png"
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+#  sqflite: 1.3.1+2
+#  build_runner: any #^2.1.0
+#  build_test: any #^2.1.0
+#  build_web_compilers: any #^3.0.0
+
+dependency_overrides:
+  intl: ^0.17.0-nullsafety.2
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/AppIcon.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/chatIcon.png
+    - images/discoveryIcon.png
+    - images/shiftsIcon.png
+    - images/newsIcon.png
+    - images/person.png
+    - images/filter.png
+    - images/news.png
+    - images/line.png
+    - images/shifts.webp
+    - images/ryLogo.png
+    - images/logout.png
+    - images/terms.png
+    - images/privacy.png
+    - images/sunrise.png
+    - images/noon.webp
+    - images/hospital.png
+    - images/name.png
+    - images/name2.png
+    - images/employeeNumber.png
+    - images/membership.png
+    - images/roles.webp
+    - images/img_logo.webp
+    - images/j_smith.webp
+    - images/j_smith_card.webp
+    - images/accidentCard.webp
+    - images/surgeryCard.webp
+    - images/accidentCardMorning.webp
+    - images/chatOne.webp
+    - images/chatTwo.webp
+    - images/chatThree.webp
+    - images/announce.png
+    - images/group.png
+    - images/doctor.png
+    - images/finger.png
+    - images/face.png
+    - images/finger&face.png
+    - images/placeholder.png
+    - images/placeholderNoresultBlue.png
+    - images/survey.png
+    - images/warning.png
+    - images/question.png
+    - images/chatBackground.png
+    - images/star.png
+    - images/starFill.png
+    - images/medicineBook.png
+    - images/comment.png
+    - images/chat.png
+    - images/newspaper.png
+    - images/newspaper2.png
+    - images/newspaper3.png
+    - images/shifts.png
+    - images/share.png
+    - images/search.png
+    - images/calendar.png
+    - images/trustIcon.png
+    - images/video.png
+    - images/hospitalIcon.png
+    - images/callIcon.png
+    - images/area.png
+    - images/like.png
+    - images/like2.png
+    - images/care.png
+    - images/insightful.png
+    - images/celebrate.png
+    - images/celebrateActive.png
+    - images/likeActive.png
+    - images/insightfulActive.png
+    - images/careActive.png
+    - images/pencil.png
+    - images/reply.png
+    - images/role.png
+    - images/skills.png
+    - images/lang.png
+    - images/ringBordered.png
+    - images/ringFilled.png
+    - images/survey2.png
+    - images/area-of-work.svg
+    - images/area-of-work-filled.svg
+    - images/newsIconFilled.svg
+    - images/newsIconOutline.svg
+    - images/newsIconOutline.png
+    - images/directoryOutline.svg
+    - images/directoryFilled.svg
+    - images/shiftsFilled.svg
+    - images/chatOutline.svg
+    - images/chatOutline.png
+    - images/chatFilled.svg
+    - images/setting-filled.svg
+    - images/setting.svg
+    - images/support.svg
+    - images/support-filled.svg
+    - images/notification-filled.svg
+    - images/notification.svg
+    - images/survey.svg
+    - images/survey2.svg
+    - images/survey3.svg
+    - images/survey-filled.svg
+    - images/employee-number.svg
+    - images/employee-number-filled.svg
+    - images/language.svg
+    - images/language-filled.svg
+    - images/level.svg
+    - images/level-filled.svg
+    - images/membership.svg
+    - images/membership-filled.svg
+    - images/organisation.svg
+    - images/organisation-filled.svg
+    - images/role.svg
+    - images/role-filled.svg
+    - images/site.svg
+    - images/site-filled.svg
+    - images/skills.svg
+    - images/skills-filled.svg
+    - images/verified.svg
+    - images/verified-filled.svg
+    - images/min-level-filled.svg
+    - images/min-level.svg
+    - images/alert.svg
+    - images/alert-filled.svg
+    - images/call.svg
+    - images/call-filled.svg
+    - images/comment.svg
+    - images/comment-filled.svg
+    - images/favorite.svg
+    - images/favorite-filled.svg
+    - images/share.svg
+    - images/share-filled.svg
+    - images/video-call.svg
+    - images/video-call-filled.svg
+    - images/email-filled.svg
+    - images/email.svg
+    - images/user-detail.svg
+    - images/user-detail-filled.svg
+    - images/annoucement.svg
+    - images/annoucement-filled.svg
+    - images/filter-filled.svg
+    - images/filter.svg
+    - images/filter2.svg
+    - images/filter-filled.svg
+    - images/info.svg
+    - images/info-filled.svg
+    - images/list-view.svg
+    - images/list-view-filled.svg
+    - images/new-chat-filled.svg
+    - images/new-chat.svg
+    - images/edit.svg
+    - images/edit-filled.svg
+    - images/new-comment.svg
+    - images/new-comment-filled.svg
+    - images/reply.svg
+    - images/reply-filled.svg
+    - images/send.svg
+    - images/send-filled.svg
+    - images/insightful-active.svg
+    - images/like-active.svg
+    - images/celeberate-active.svg
+    - images/support-active.svg
+    - images/like.svg
+    - images/missingImage.svg
+    - images/privacy-filled.svg
+    - images/privacy.svg
+    - images/privacy.svg
+    - images/question.svg
+    - images/question-filled.svg
+    - images/agree.png
+    - images/agree-filled.png
+    - images/disAgree-filled.png
+    - images/disAgree.png
+    - images/Neither-agree-nor-disagree-filled.png
+    - images/Neither-agree-nor-disagree.png
+    - images/strongly-agree-filled.png
+    - images/strongly-agree.png
+    - images/strongly-disAgree-filled.png
+    - images/strongly-disAgree.png
+    - images/AppIcon.png
+    - images/font.png
+    - images/noProfile.png
+    - images/gifLoader.gif
+    - images/notFound.png
+    - images/errorImage.png
+    - images/error_reload.png
+    - images/darkmode.png
+    - images/karmaSanctum.png
+    - images/gallery.png
+    - assets/alert.mp3
+    - images/endCall.svg
+    - images/speakerOn.svg
+    - images/mute.svg
+    - images/moon.svg
+    - images/sun.svg
+    - images/halfSun.svg
+    - images/shiftsOutLine.png
+    - images/shiftsOutLine.svg
+    - images/bid.svg
+    - images/core-rate-filled.svg
+    - images/core-rate.svg
+    - images/img_nhsp_logo.webp
+    - images/offline.png
+    - images/no-connection.png
+    - images/Survey-filled.png
+    - images/setting-filled.png
+    - images/question-filled.png
+    - images/notification-filled.png
+    - images/newsIconOutline.png
+    - images/Computer-Phone.png
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

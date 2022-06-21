@@ -1,0 +1,182 @@
+{
+  "project_info": {
+    "project_number": "622102173692",
+    "firebase_url": "https://right-nurse.firebaseio.com",
+    "project_id": "right-nurse",
+    "storage_bucket": "right-nurse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622102173692:android:d5e51ebefb017732",
+        "android_client_info": {
+          "package_name": "com.ryaltoapp.rightnurse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622102173692-t8hnhan88sb8cii73m3t2p41ic0sk7fp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ryaltoapp.rightnurse",
+            "certificate_hash": "a61371949ee641db5be03ace638e14548527b919"
+          }
+        },
+        {
+          "client_id": "622102173692-n82c40er88pantjl6i2u8evv4dpgtquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqlngu0JZDKFLc8orskn0k9AHdVcdh5hk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622102173692:android:a233a021525d3908",
+        "android_client_info": {
+          "package_name": "com.ryaltoapp.rightnurse.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622102173692-1kmksosidj9n83fvtk5k7so8rk6b68me.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ryaltoapp.rightnurse.staging",
+            "certificate_hash": "a61371949ee641db5be03ace638e14548527b919"
+          }
+        },
+        {
+          "client_id": "622102173692-n82c40er88pantjl6i2u8evv4dpgtquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqlngu0JZDKFLc8orskn0k9AHdVcdh5hk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622102173692-n82c40er88pantjl6i2u8evv4dpgtquv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622102173692:android:bed28346352bb199",
+        "android_client_info": {
+          "package_name": "com.ryaltoapp.rightnurse.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622102173692-q5202d4dbbv1hlm0v4k9dgooe1o1qaau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ryaltoapp.rightnurse.dev",
+            "certificate_hash": "a61371949ee641db5be03ace638e14548527b919"
+          }
+        },
+        {
+          "client_id": "622102173692-n82c40er88pantjl6i2u8evv4dpgtquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqlngu0JZDKFLc8orskn0k9AHdVcdh5hk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622102173692-n82c40er88pantjl6i2u8evv4dpgtquv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622102173692:android:5a275d75d83eeae9",
+        "android_client_info": {
+          "package_name": "com.ryaltoapp.rightnurse.nightly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622102173692-pck16ddh3scnnnvd8mvu0iq0l2agdap4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ryaltoapp.rightnurse.nightly",
+            "certificate_hash": "a61371949ee641db5be03ace638e14548527b919"
+          }
+        },
+        {
+          "client_id": "622102173692-n82c40er88pantjl6i2u8evv4dpgtquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqlngu0JZDKFLc8orskn0k9AHdVcdh5hk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622102173692-n82c40er88pantjl6i2u8evv4dpgtquv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
